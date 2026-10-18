@@ -1,0 +1,7 @@
+{
+  "production_hosts": ["db1", "db2", "gitlab-db*"],
+  "production_patterns": ["(?i)^payments-"],
+  "protected_paths": ["/srv/gitlab/uploads"],
+  "disabled_rules": [],
+  "allow_self_approval": false
+}
